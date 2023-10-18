@@ -1,0 +1,15 @@
+# Build the Monaco Javascript files
+@build: build-debug build-release
+
+@build-release:
+    -rm dist-release/*
+    npm run build-release
+
+@build-debug:
+    -rm dist-debug/*
+    npm run build-debug
+
+
+# Install the node dependencies
+@install:
+    npm install

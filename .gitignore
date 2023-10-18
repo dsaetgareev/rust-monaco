@@ -1,0 +1,8 @@
+/pkg/
+/target/
+
+.idea
+.vs
+.vscode
+
+Cargo.lock
